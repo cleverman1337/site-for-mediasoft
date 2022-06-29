@@ -1,0 +1,21 @@
+ul.menu{
+    width: 150px;
+    border: 1px solid #c4c4c4;
+    padding-left: 25px;
+    }
+    div.pod-punkt{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    padding: 15px 15px 15px 0;
+    min-width: 50px;
+    border: 1px solid #c4c4c4;
+    white-space: nowrap;
+    }
+    li.punkt{
+    position: relative;
+    }
+    li.punkt:hover div.pod-punkt{
+    display: block;
+    }
